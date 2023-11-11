@@ -56,9 +56,9 @@ var isHungry = true;
 var finishedHomework = false;
 
 // EXAMPLE:
-// Determine if the user is hungry and has completed their homework
+// Determine if the user is hungry and has completed their homework - False
 console.log(isHungry && finishedHomework);
-// Determine if the user is hungry or has completed their homework
+// Determine if the user is hungry or has completed their homework - True 
 console.log(isHungry || finishedHomework);
 
 var lovesToPlay = true;
@@ -68,10 +68,12 @@ var age = 1;
 
 // YOU DO:
 // Determine if the dog loves to play and loves treats
+console.log(lovesToPlay && lovesTreats);
 
 // YOU DO:
 // Determine if the dog loves to play or loves the dog park
-
+console.log(lovesToPlay || lovesDogPark)
 // YOU DO:
 // Determine if the dog loves to play and is a puppy
 // HINT: Use the age variable and assume that a puppy is less than 2 years old
+console.log(lovesToPlay && age < 2)
